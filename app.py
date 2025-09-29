@@ -3,7 +3,7 @@ import json
 from evaluator import evaluate_text_answer, evaluate_excel_answer
 
 # Load tasks
-tasks = json.load(open(r"C:\Users\msi 1\Documents\Excel_interviewer\sample_task.json"))
+tasks = json.load(open("sample_task.json"))
 
 st.title("AI-Powered Excel Mock Interviewer")
 
@@ -38,4 +38,5 @@ if st.button("Finish Interview"):
     st.write(f"Overall Score: {total_score:.2f}")
 
     for r in st.session_state.responses:
+
         st.write(f"- Q: {r['q']} | Score: {r['score']} | Feedback: {r['feedback']}")
