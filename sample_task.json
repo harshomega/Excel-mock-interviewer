@@ -85,11 +85,12 @@
 "expected_answer": "Relative changes with movement (A1), absolute remains fixed ($A$1), and mixed locks either row or column ($A1 or A$1)."
 },
 {
-"id": 15,
-"category": "Advanced",
-"question": "How can you write a formula that returns 'Pass' if a score is above 50 and 'Fail' otherwise?",
-"expected_answer": "Use IF function: =IF(A1>50, "Pass", "Fail")"
+  "id": 15,
+  "category": "Advanced",
+  "question": "How can you write a formula that returns 'Pass' if a score is above 50 and 'Fail' otherwise?",
+  "expected_answer": "Use IF function: =IF(A1>50, \"Pass\", \"Fail\")."
 }
 ]
 }
+
 
