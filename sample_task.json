@@ -1,0 +1,94 @@
+{
+"tasks": [
+{
+"id": 1,
+"category": "Formulas",
+"question": "How would you use VLOOKUP to find an employee's department based on their ID in a dataset?",
+"expected_answer": "Use VLOOKUP with the employee ID as the lookup value, select the range containing IDs and departments, specify the column index for department, and use FALSE for exact match."
+},
+{
+"id": 2,
+"category": "Formulas",
+"question": "What is the difference between VLOOKUP and INDEX-MATCH?",
+"expected_answer": "INDEX-MATCH is more flexible because it allows lookups to the left and is faster on large datasets, while VLOOKUP can only look right from the key column."
+},
+{
+"id": 3,
+"category": "Functions",
+"question": "How would you calculate the average sales for only the East region using Excel?",
+"expected_answer": "Use the AVERAGEIF function with 'East' as the criteria and the sales column as the range."
+},
+{
+"id": 4,
+"category": "Functions",
+"question": "Explain the difference between COUNT, COUNTA, and COUNTIF.",
+"expected_answer": "COUNT counts numbers, COUNTA counts non-empty cells, and COUNTIF counts cells matching a condition."
+},
+{
+"id": 5,
+"category": "PivotTables",
+"question": "How would you summarize sales data by product category and region?",
+"expected_answer": "Insert a PivotTable, drag 'Product Category' to rows, 'Region' to columns, and 'Sales' to values."
+},
+{
+"id": 6,
+"category": "PivotTables",
+"question": "How can you show both sum and average of sales in the same PivotTable?",
+"expected_answer": "Add 'Sales' twice in the values area, then change one aggregation to 'Sum' and the other to 'Average'."
+},
+{
+"id": 7,
+"category": "Data Cleaning",
+"question": "What Excel functions would you use to remove extra spaces and ensure consistent formatting in a dataset?",
+"expected_answer": "Use TRIM to remove spaces, PROPER/UPPER/LOWER for text case, and CLEAN to remove non-printable characters."
+},
+{
+"id": 8,
+"category": "Data Cleaning",
+"question": "How can you detect and remove duplicate entries in Excel?",
+"expected_answer": "Use the 'Remove Duplicates' feature under Data tab, or use COUNTIF to highlight duplicates."
+},
+{
+"id": 9,
+"category": "Charts",
+"question": "Which chart type is best to show sales trends over time, and why?",
+"expected_answer": "A line chart is best for trends because it shows data continuity over time."
+},
+{
+"id": 10,
+"category": "Charts",
+"question": "How can you create a dynamic chart that updates when new data is added?",
+"expected_answer": "Use an Excel Table as the source data or define a dynamic named range with OFFSET or INDEX."
+},
+{
+"id": 11,
+"category": "Scenario-Based",
+"question": "You are given sales data with missing values. How would you handle this before creating a report?",
+"expected_answer": "Identify missing values using filters or ISBLANK, then decide whether to fill with averages, use interpolation, or exclude depending on business context."
+},
+{
+"id": 12,
+"category": "Scenario-Based",
+"question": "A manager wants to quickly see top 5 customers by revenue. How would you do this?",
+"expected_answer": "Sort the revenue column descending and filter top 5, or use LARGE function, or use PivotTable with Top N filter."
+},
+{
+"id": 13,
+"category": "Advanced",
+"question": "Explain how you would use Power Query to combine multiple Excel files into one dataset.",
+"expected_answer": "Use 'Get Data' → 'From Folder', select the folder containing files, transform sample file, and load the combined dataset."
+},
+{
+"id": 14,
+"category": "Advanced",
+"question": "What is the difference between absolute, relative, and mixed cell references in Excel?",
+"expected_answer": "Relative changes with movement (A1), absolute remains fixed ($A$1), and mixed locks either row or column ($A1 or A$1)."
+},
+{
+"id": 15,
+"category": "Advanced",
+"question": "How can you write a formula that returns 'Pass' if a score is above 50 and 'Fail' otherwise?",
+"expected_answer": "Use IF function: =IF(A1>50, "Pass", "Fail")."
+}
+]
+}
