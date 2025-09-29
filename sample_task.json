@@ -88,7 +88,8 @@
 "id": 15,
 "category": "Advanced",
 "question": "How can you write a formula that returns 'Pass' if a score is above 50 and 'Fail' otherwise?",
-"expected_answer": "Use IF function: =IF(A1>50, "Pass", "Fail")."
+"expected_answer": "Use IF function: =IF(A1>50, "Pass", "Fail")"
 }
 ]
 }
+
